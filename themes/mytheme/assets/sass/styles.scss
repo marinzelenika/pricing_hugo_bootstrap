@@ -1,6 +1,25 @@
 .jumbotron {
     padding: 4rem 2rem;
     margin-bottom: 2rem;
-    background-color: var(--bs-light);
+    background-color: rgb(111,89,172);
+    background: linear-gradient(90deg, rgba(111,89,172,1) 0%, rgba(69,123,157,1) 0%, rgba(29,53,87,1) 100%);
     border-radius: .3rem;  
+}
+.display-2{
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    font-family: 'Open Sans';
+}
+.lead{
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Open Sans';
+}
+button{
+    background-color: #2ec4b6;
+}
+a:link{
+    color: white;
+    font-family: 'Open Sans';
 }
