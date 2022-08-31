@@ -1,0 +1,15 @@
+<div class="row">
+     {{ range .Site.RegularPages }}
+
+  <div class="col">
+    <div class="card shadow p-3 mb-5 bg-white rounded">
+      <div class="card-body">
+        <h5 class="card-title">{{ .Title }}</h5>
+        <p class="card-text">Manipulate Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats using our native APIs for .NET, Java, Android, C++ and other Platforms.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+          
+    {{ end }}
+</div>
